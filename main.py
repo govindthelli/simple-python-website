@@ -7,7 +7,7 @@ redis = redis.Redis(host='redis', port=6379, db=0)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World with Nevtik!'
+    return 'Hello, World with Govind!'
 
 @app.route('/visitor')
 def visitor():
